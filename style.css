@@ -5,8 +5,8 @@ body{
 	background-color: #fff;
 }
 
-table{
-	font-family: arial, sans-serif;
+.secondtable{
+	font-family: System, sans-serif;
     border-collapse: collapse;
     width: 67%;
 }
@@ -19,6 +19,14 @@ td, th{
  th{
 	
     background-color: silver;
+}
+.table3{
+	font-family: System, sans-serif;
+    border-collapse: collapse;
+    width: 55%;
+    margin-top: 48px;
+    margin-bottom: 45px;
+    
 }
 
 
