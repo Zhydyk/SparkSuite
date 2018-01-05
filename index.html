@@ -1,118 +1,221 @@
-
-<!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	
-	
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 
-	<title>Test</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
-	<style>
-	
-</style>
 </head>
-
 <body>
-	<table class="secondtable">
-		<tr>
-			<th>ROOM#</th>
-			<th colspan="2" >CLEANED FROM/TO</th>
-			<th>CLEANED BY</th>
-			<th>COMMENTS</th>
-		</tr>
-		<tr>
-			<td>Room#1</td>
-			<td>9:54 AM</td>
-			<td>10:00 AM</td>
-			<td>Jane</td>
-			<td>Cool</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Room#2</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+<div class="container-fluid site-wrapper">
+    <div class="top-image header">
+        <img src="F:/SparkSuite/images/img1.png" alt="img">
+    </div>
+    <div class="container-fluid header right" id="normright">
+        <p id="centertext">Daily repoort</p>
+        <p>Created: 04-01-2018</p>
+    </div>
+    <div class="container-fluid header">
+        <table class="table1">
+            <tr>
+                <th>NAME/INV#</th>
+                <th colspan="2">TIME FROM/TO</th>
+                <th>TIME ORDERED</th>
+                <th>CLIENT NAME</th>
+                <th>ROOM#</th>
+                <th>INVOICED</th>
+                <th>HOUSE FEES</th>
+                <th>TOTAL</th>
+            </tr>
+            <tr>
+                <td>Tony/Total</td>
+                <td></td>
+                <td></td>
+                <td>75min</td>
+                <td></td>
+                <td></td>
+                <td>125$</td>
+                <td>20$</td>
+                <td>145$</td>
+            </tr>
+            <tr>
+                <td>01/230118</td>
+                <td>9:20 AM</td>
+                <td>9:53 AM</td>
+                <td>30min</td>
+                <td>Sam</td>
+                <td>#1</td>
+                <td>50$</td>
+                <td>10$</td>
+                <td>60$</td>
+            </tr>
+            <tr>
+                <td>03/230118</td>
+                <td>10:30 AM</td>
+                <td>10:49 AM</td>
+                <td>45min</td>
+                <td>Pol</td>
+                <td>#3</td>
+                <td>75$</td>
+                <td>10$</td>
+                <td>85$</td>
+            </tr>
+            <tr>
+                <td>05/230118</td>
+                <td>7:00 AM</td>
+                <td></td>
+                <td>30min</td>
+                <td>Jim</td>
+                <td>#1</td>
+                <td>50$</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Monika/Total</th>
+                <th></th>
+                <th></th>
+                <th>30min</th>
+                <th></th>
+                <th></th>
+                <th>50$</th>
+                <th>10$</th>
+                <th>60$</th>
+            </tr>
+            <tr>
+                <td>02/230118</td>
+                <td>10:30 AM</td>
+                <td>10:49 AM</td>
+                <td>30min</td>
+                <td>Sam</td>
+                <td>#1</td>
+                <td>50$</td>
+                <td>10$</td>
+                <td>60$</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th id="grantleft" colspan="6">Grand Total</th>
+                <th>175$</th>
+                <th>30$</th>
+                <th>205$</th>
+            </tr>
+        </table>
 
-	</table>
+        <table class="table2">
+            <tr>
+                <th>ROOM#</th>
+                <th colspan="2" >CLEANED FROM/TO</th>
+                <th>CLEANED BY</th>
+                <th>COMMENTS</th>
+            </tr>
+            <tr>
+                <td>Room#1</td>
+                <td>9:54 AM</td>
+                <td>10:00 AM</td>
+                <td>Jane</td>
+                <td>Cool</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+			</tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Room#2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
 
-	<table class="table3">
-		<tr>
-			<th>WALKOUTS/NAME</th>
-			<th>TIME</th>
-			<th>REASONS</th>
-			<th>COMMENTS</th>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
+        </table>
+        <table class="table3">
+            <tr>
+                <th>WALKOUTS/NAME</th>
+                <th>TIME</th>
+                <th>REASONS</th>
+                <th>COMMENTS</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
 
-
-	
-	
+    </div>
+</div>
 </body>
 </html>

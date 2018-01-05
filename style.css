@@ -1,47 +1,62 @@
-html{
-	margin: 0;
-}
 body{
-	background-color: #fff;
+ margin: 0;
+}
+.site-wrapper{
+ max-width: 980px;
+ margin: 42px auto 42px auto;
+ box-shadow: 0 0 15px 3px lightgray;
+}
+.header{
+ display: inline-block;
+}
+.top-image{
+ margin: 32px 10px;
+}
+#centertext{
+ text-align: center;
+}
+p{
+ margin: 5px 0;
+}
+.right{
+ float: right;
+}
+#normright{
+ margin: 32px 10px;
 }
 
-.secondtable{
-	font-family: System, sans-serif;
-    border-collapse: collapse;
-    width: 67%;
+.table1{
+ margin: 0 20px 48px 20px;
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 940px;
+}
+#grantleft{
+ text-align: left;
+}
+
+.table2{
+ margin: 0 20px;
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 67%;
 }
 td, th{
-	border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-    height: 36px;
+ border: 1px solid #dddddd;
+ text-align: center;
+ padding: 8px;
+ height: 36px;
 }
- th{
-	
-    background-color: silver;
+th{
+
+ background-color: silver;
 }
 .table3{
-	font-family: System, sans-serif;
-    border-collapse: collapse;
-    width: 55%;
-    margin-top: 48px;
-    margin-bottom: 45px;
-    
-}
-
-
-
-
-			
-
-
-
-
-
-@media(max-width: 768px){
-	
-	}
-
-@media(max-width: 480px){
+ margin: 48px 20px;
+ font-family: System, sans-serif;
+ border-collapse: collapse;
+ width: 55%;
+ margin-top: 48px;
+ margin-bottom: 48px;
 
 }
